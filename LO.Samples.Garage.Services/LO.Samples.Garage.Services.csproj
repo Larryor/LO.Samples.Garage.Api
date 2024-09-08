@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LO.Samples.Garage.Providers\LO.Samples.Garage.Providers.csproj" />
+    <ProjectReference Include="..\LO.Samples.Garage.Shared.Internal\LO.Samples.Garage.Shared.Internal.csproj" />
+  </ItemGroup>
+
+</Project>

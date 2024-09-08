@@ -1,0 +1,6 @@
+@LO.Samples.Garage.Api_HostAddress = http://localhost:5080
+
+GET {{LO.Samples.Garage.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
